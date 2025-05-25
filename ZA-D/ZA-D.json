@@ -2386,6 +2386,22 @@
         "name": "ZA-D Assets/Sprites/Asteroids Assets_Ships_ship_bullet3.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/ZA-D Assets_Sprites_KIdle01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets/ZA-D Assets_Sprites_KIdle01.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/ZA-D Assets_Sprites_KIdle01.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets/Sprites/ZA-D Assets_Sprites_KIdle01.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2462,6 +2478,16 @@
           "name": "SwarmZomHealthVar",
           "type": "number",
           "value": 1
+        },
+        {
+          "name": "SpeedZomHealthVar",
+          "type": "number",
+          "value": 1
+        },
+        {
+          "name": "ChonkZomHealthVar",
+          "type": "number",
+          "value": 5
         }
       ],
       "instances": [
@@ -3221,7 +3247,13 @@
           "name": "ChonkZom",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "ChonkZomHealthVar",
+              "type": "number",
+              "value": 5
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
@@ -3287,7 +3319,13 @@
           "name": "SpeedZom",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "name": "SpeedZomHealthVar",
+              "type": "number",
+              "value": 1
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -3302,7 +3340,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/KIdle02.png",
+                      "image": "ZA-D Assets/Sprites/ZA-D Assets_Sprites_KIdle01.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3318,19 +3356,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 23,
-                            "y": 4
+                            "x": 17,
+                            "y": 2
                           },
                           {
-                            "x": 131,
-                            "y": 4
+                            "x": 125,
+                            "y": 2
                           },
                           {
-                            "x": 131,
+                            "x": 125,
                             "y": 170
                           },
                           {
-                            "x": 23,
+                            "x": 17,
                             "y": 170
                           }
                         ]
@@ -3394,7 +3432,7 @@
             {
               "name": "SwarmZomHealthVar",
               "type": "number",
-              "value": 0
+              "value": 1
             }
           ],
           "effects": [],
@@ -3470,10 +3508,10 @@
             "objectName": "SwarmZom"
           },
           {
-            "objectName": "ChonkZom"
+            "objectName": "SpeedZom"
           },
           {
-            "objectName": "SpeedZom"
+            "objectName": "ChonkZom"
           },
           {
             "objectName": "Background_Dirt"
@@ -3512,135 +3550,139 @@
           "type": "BuiltinCommonInstructions::Group",
           "events": [
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
+              "colorB": 226,
+              "colorG": 144,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Timers",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
                 {
-                  "type": {
-                    "value": "DepartScene"
-                  },
-                  "parameters": [
-                    ""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"FireRate\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"RegZomSpawn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"SwarmZomSpawn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"SpeedZomSpawn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"ChonkZomSpawn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"FuelSpawn\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"FuelDecline\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"RegZomScale\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"SwarmZomScale\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"SpeedZomScale\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"ChonkZomScale\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"GameTimer\""
+                      ]
+                    }
                   ]
                 }
               ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"FireRate\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"RegZomSpawn\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"SwarmZomSpawn\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"ChonkZomSpawn\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"SpeedZomSpawn\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"FuelSpawn\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"FuelDecline\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"RegZomScale\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"SwarmZomScale\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"ChonkZomScale\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"SpeedZomScale\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"GameTimer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Game_Over"
-                  ]
-                }
-              ]
+              "parameters": []
             },
             {
               "type": "BuiltinCommonInstructions::Standard",
@@ -3683,7 +3725,7 @@
                   "parameters": [
                     "FuelVar",
                     "=",
-                    "100"
+                    "1000"
                   ]
                 },
                 {
@@ -3706,6 +3748,14 @@
                     "Text",
                     "=",
                     "\"Z Coinz: \" + ToString(Z_CoinzVar)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Game_Over"
                   ]
                 }
               ]
@@ -3911,31 +3961,6 @@
               ]
             },
             {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Health::Health::IsDead"
-                  },
-                  "parameters": [
-                    "Player",
-                    "Health",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ParticleSystem::StopEmission"
-                  },
-                  "parameters": [
-                    "PixelTrail"
-                  ]
-                }
-              ]
-            },
-            {
               "colorB": 78,
               "colorG": 152,
               "colorR": 196,
@@ -4000,12 +4025,6 @@
                         "",
                         "\"w\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "BuiltinCommonInstructions::Once"
-                      },
-                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -4064,6 +4083,7 @@
               "colorG": 156,
               "colorR": 97,
               "creationTime": 0,
+              "folded": true,
               "name": "Regular Zombo Settings",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4370,7 +4390,7 @@
               "colorG": 177,
               "colorR": 141,
               "creationTime": 0,
-              "disabled": true,
+              "folded": true,
               "name": "Swarm Zombo Settings",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -4559,7 +4579,7 @@
                         "AsteroidLarge",
                         "\"SwarmZomSpawn\"",
                         ">=",
-                        "2"
+                        "5"
                       ]
                     },
                     {
@@ -4570,7 +4590,7 @@
                         "",
                         "\"GameTimer\"",
                         ">=",
-                        "2"
+                        "30"
                       ]
                     },
                     {
@@ -4600,8 +4620,20 @@
                       "parameters": [
                         "",
                         "SwarmZom",
-                        "RegZom.PointX(\"Origin\")+25",
-                        "RegZom.PointY(\"Origin\")+25",
+                        "SwarmZom.PointX(\"Origin\")+25",
+                        "SwarmZom.PointY(\"Origin\")+25",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SwarmZom",
+                        "SwarmZom.PointX(\"Origin\")-25",
+                        "SwarmZom.PointY(\"Origin\")-25",
                         ""
                       ]
                     },
@@ -4632,7 +4664,7 @@
                       },
                       "parameters": [
                         "SwarmZom",
-                        "RegZom.Angle()",
+                        "SwarmZom.Angle()",
                         "40",
                         "1"
                       ]
@@ -4700,7 +4732,6 @@
               "colorG": 107,
               "colorR": 77,
               "creationTime": 0,
-              "disabled": true,
               "folded": true,
               "name": "Speedy Zombo Settings",
               "source": "",
@@ -4714,8 +4745,8 @@
                         "value": "NumberObjectVariable"
                       },
                       "parameters": [
-                        "RegZom",
-                        "RegZomHealthVar",
+                        "SpeedZom",
+                        "SpeedZomHealthVar",
                         "<=",
                         "0"
                       ]
@@ -4727,7 +4758,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "RegZom",
+                        "SpeedZom",
                         ""
                       ]
                     },
@@ -4763,7 +4794,7 @@
                       },
                       "parameters": [
                         "Bullet",
-                        "RegZom",
+                        "SpeedZom",
                         "",
                         "",
                         ""
@@ -4785,8 +4816,8 @@
                         "value": "SetNumberObjectVariable"
                       },
                       "parameters": [
-                        "RegZom",
-                        "RegZomHealthVar",
+                        "SpeedZom",
+                        "SpeedZomHealthVar",
                         "-",
                         "1"
                       ]
@@ -4802,7 +4833,7 @@
                       },
                       "parameters": [
                         "Player",
-                        "RegZom",
+                        "SpeedZom",
                         "",
                         "",
                         ""
@@ -4817,7 +4848,7 @@
                       "parameters": [
                         "LivesVar",
                         "-",
-                        "2"
+                        "1"
                       ]
                     },
                     {
@@ -4836,7 +4867,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "RegZom",
+                        "SpeedZom",
                         ""
                       ]
                     }
@@ -4851,9 +4882,9 @@
                       },
                       "parameters": [
                         "",
-                        "\"RegZomScale\"",
+                        "\"SpeedZomScale\"",
                         ">=",
-                        "30"
+                        "90"
                       ]
                     }
                   ],
@@ -4863,7 +4894,7 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "RegZomHealthVar",
+                        "SpeedZomHealthVar",
                         "+",
                         "1"
                       ]
@@ -4874,7 +4905,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"RegZomScale\""
+                        "\"SpeedZomScale\""
                       ]
                     }
                   ]
@@ -4888,9 +4919,20 @@
                       },
                       "parameters": [
                         "AsteroidLarge",
-                        "\"RegZomSpawn\"",
+                        "\"SpeedZomSpawn\"",
                         ">=",
-                        "1"
+                        "3"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"GameTimer\"",
+                        ">=",
+                        "60"
                       ]
                     },
                     {
@@ -4907,7 +4949,7 @@
                       },
                       "parameters": [
                         "",
-                        "RegZom",
+                        "SpeedZom",
                         "Random(1278)",
                         "Random(719)",
                         ""
@@ -4918,7 +4960,7 @@
                         "value": "ScalableCapability::ScalableBehavior::SetValue"
                       },
                       "parameters": [
-                        "RegZom",
+                        "SpeedZom",
                         "Scale",
                         "=",
                         ".25"
@@ -4929,7 +4971,7 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
-                        "RegZom",
+                        "SpeedZom",
                         "=",
                         "Random(360)"
                       ]
@@ -4939,9 +4981,9 @@
                         "value": "AddForceAL"
                       },
                       "parameters": [
-                        "RegZom",
-                        "RegZom.Angle()",
-                        "40",
+                        "SpeedZom",
+                        "SpeedZom.Angle()",
+                        "180",
                         "1"
                       ]
                     },
@@ -4950,10 +4992,10 @@
                         "value": "SetNumberObjectVariable"
                       },
                       "parameters": [
-                        "RegZom",
-                        "RegZomHealthVar",
+                        "SpeedZom",
+                        "SpeedZomHealthVar",
                         "=",
-                        "RegZomHealthVar"
+                        "SpeedZomHealthVar"
                       ]
                     },
                     {
@@ -4962,7 +5004,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"RegZomSpawn\""
+                        "\"SpeedZomSpawn\""
                       ]
                     }
                   ],
@@ -4975,7 +5017,7 @@
                             "value": "CollisionNP"
                           },
                           "parameters": [
-                            "RegZom",
+                            "SpeedZom",
                             "Player",
                             "",
                             "",
@@ -4989,7 +5031,7 @@
                             "value": "MettreXY"
                           },
                           "parameters": [
-                            "RegZom",
+                            "SpeedZom",
                             "=",
                             "Random(700)",
                             "=",
@@ -5008,7 +5050,6 @@
               "colorG": 73,
               "colorR": 40,
               "creationTime": 0,
-              "disabled": true,
               "folded": true,
               "name": "Chonky Zombo Settings",
               "source": "",
@@ -5022,8 +5063,8 @@
                         "value": "NumberObjectVariable"
                       },
                       "parameters": [
-                        "RegZom",
-                        "RegZomHealthVar",
+                        "ChonkZom",
+                        "ChonkZomHealthVar",
                         "<=",
                         "0"
                       ]
@@ -5035,7 +5076,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "RegZom",
+                        "ChonkZom",
                         ""
                       ]
                     },
@@ -5046,7 +5087,7 @@
                       "parameters": [
                         "Z_CoinzVar",
                         "+",
-                        "5"
+                        "15"
                       ]
                     },
                     {
@@ -5071,7 +5112,7 @@
                       },
                       "parameters": [
                         "Bullet",
-                        "RegZom",
+                        "ChonkZom",
                         "",
                         "",
                         ""
@@ -5093,8 +5134,8 @@
                         "value": "SetNumberObjectVariable"
                       },
                       "parameters": [
-                        "RegZom",
-                        "RegZomHealthVar",
+                        "ChonkZom",
+                        "ChonkZomHealthVar",
                         "-",
                         "1"
                       ]
@@ -5110,7 +5151,7 @@
                       },
                       "parameters": [
                         "Player",
-                        "RegZom",
+                        "ChonkZom",
                         "",
                         "",
                         ""
@@ -5144,7 +5185,7 @@
                         "value": "Delete"
                       },
                       "parameters": [
-                        "RegZom",
+                        "ChonkZom",
                         ""
                       ]
                     }
@@ -5159,9 +5200,9 @@
                       },
                       "parameters": [
                         "",
-                        "\"RegZomScale\"",
+                        "\"ChonkZomScale\"",
                         ">=",
-                        "30"
+                        "120"
                       ]
                     }
                   ],
@@ -5171,9 +5212,9 @@
                         "value": "SetNumberVariable"
                       },
                       "parameters": [
-                        "RegZomHealthVar",
+                        "ChonkZomHealthVar",
                         "+",
-                        "1"
+                        "5"
                       ]
                     },
                     {
@@ -5182,7 +5223,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"RegZomScale\""
+                        "\"ChonkZomScale\""
                       ]
                     }
                   ]
@@ -5196,9 +5237,20 @@
                       },
                       "parameters": [
                         "AsteroidLarge",
-                        "\"RegZomSpawn\"",
+                        "\"ChonkZomSpawn\"",
                         ">=",
-                        "1"
+                        "5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "CompareTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"GameTimer\"",
+                        ">=",
+                        "90"
                       ]
                     },
                     {
@@ -5215,7 +5267,7 @@
                       },
                       "parameters": [
                         "",
-                        "RegZom",
+                        "ChonkZom",
                         "Random(1278)",
                         "Random(719)",
                         ""
@@ -5226,10 +5278,10 @@
                         "value": "ScalableCapability::ScalableBehavior::SetValue"
                       },
                       "parameters": [
-                        "RegZom",
+                        "ChonkZom",
                         "Scale",
                         "=",
-                        ".25"
+                        ".5"
                       ]
                     },
                     {
@@ -5237,7 +5289,7 @@
                         "value": "SetAngle"
                       },
                       "parameters": [
-                        "RegZom",
+                        "ChonkZom",
                         "=",
                         "Random(360)"
                       ]
@@ -5247,9 +5299,9 @@
                         "value": "AddForceAL"
                       },
                       "parameters": [
-                        "RegZom",
-                        "RegZom.Angle()",
-                        "40",
+                        "ChonkZom",
+                        "ChonkZom.Angle()",
+                        "30",
                         "1"
                       ]
                     },
@@ -5258,10 +5310,10 @@
                         "value": "SetNumberObjectVariable"
                       },
                       "parameters": [
-                        "RegZom",
-                        "RegZomHealthVar",
+                        "ChonkZom",
+                        "ChonkZomHealthVar",
                         "=",
-                        "RegZomHealthVar"
+                        "ChonkZomHealthVar"
                       ]
                     },
                     {
@@ -5270,7 +5322,7 @@
                       },
                       "parameters": [
                         "",
-                        "\"RegZomSpawn\""
+                        "\"ChonkZomSpawn\""
                       ]
                     }
                   ],
@@ -5283,7 +5335,7 @@
                             "value": "CollisionNP"
                           },
                           "parameters": [
-                            "RegZom",
+                            "ChonkZom",
                             "Player",
                             "",
                             "",
@@ -5297,7 +5349,7 @@
                             "value": "MettreXY"
                           },
                           "parameters": [
-                            "RegZom",
+                            "ChonkZom",
                             "=",
                             "Random(700)",
                             "=",
