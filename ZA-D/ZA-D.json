@@ -2418,6 +2418,22 @@
         "name": "NewSprite2",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/NewSprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\NewSprite.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/NewSprite2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\NewSprite2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -2442,6 +2458,11 @@
       "name": "FuelVar",
       "type": "number",
       "value": 0
+    },
+    {
+      "name": "bulletSpeed",
+      "type": "number",
+      "value": 400
     },
     {
       "name": "fuelConsump",
@@ -2479,9 +2500,9 @@
       "value": 10
     },
     {
-      "name": "Variable3",
+      "name": "bulletSize",
       "type": "number",
-      "value": 0
+      "value": 0.05
     }
   ],
   "layouts": [
@@ -3656,17 +3677,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite",
+              "name": "default",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite",
+                      "image": "ZA-D Assets\\Sprites\\NewSprite.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3717,17 +3737,16 @@
           "behaviors": [],
           "animations": [
             {
-              "name": "NewSprite2",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
                   "looping": false,
-                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "NewSprite2",
+                      "image": "ZA-D Assets\\Sprites\\NewSprite2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4113,7 +4132,6 @@
           "colorG": 156,
           "colorR": 52,
           "creationTime": 0,
-          "folded": true,
           "name": "Player Settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -4271,7 +4289,7 @@
                     "Bullet",
                     "Scale",
                     "=",
-                    "0.05"
+                    "bulletSize"
                   ]
                 },
                 {
@@ -4281,7 +4299,7 @@
                   "parameters": [
                     "Bullet",
                     "Player.Angle()",
-                    "400",
+                    "bulletSpeed",
                     "1"
                   ]
                 },
@@ -4322,7 +4340,7 @@
                   "parameters": [
                     "Blades",
                     "=",
-                    "1"
+                    "2"
                   ]
                 }
               ],
@@ -4361,7 +4379,7 @@
                   "parameters": [
                     "Blades",
                     "=",
-                    "1"
+                    "2"
                   ]
                 }
               ],
@@ -9038,6 +9056,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bulletSize3",
+          "persistentUuid": "40fd952f-3550-49da-b6ca-c3d11c7c6b51",
+          "width": 0,
+          "x": 838,
+          "y": 85,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "bulletSpeed2",
+          "persistentUuid": "3f45f2a9-77db-43f1-b780-f8197a671b28",
+          "width": 0,
+          "x": 843,
+          "y": 173,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -9376,6 +9426,90 @@
             "characterSize": 40,
             "color": "255;255;255"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "bulletSize3",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Bullet Size ",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Bullet Size ",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "color": "255;255;255"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "bulletSpeed2",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Bullet Speed",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 50,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Bullet Speed",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 50,
+            "color": "255;255;255"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -9395,6 +9529,12 @@
           },
           {
             "objectName": "fuelEff"
+          },
+          {
+            "objectName": "bulletSize3"
+          },
+          {
+            "objectName": "bulletSpeed2"
           },
           {
             "objectName": "fuelEffNotif"
@@ -9750,6 +9890,158 @@
               "subInstructions": [
                 {
                   "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "bulletSpeed2",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Z_CoinzVar",
+                    ">=",
+                    "50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bulletSpeed",
+                "+",
+                "50"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Z_CoinzVar",
+                "-",
+                "50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "bulletSize3",
+                    "",
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MouseButtonFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Left\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Z_CoinzVar",
+                    ">=",
+                    "50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "bulletSize",
+                    "<=",
+                    "0.50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "bulletSize",
+                "+",
+                "0.05"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetNumberVariable"
+              },
+              "parameters": [
+                "Z_CoinzVar",
+                "-",
+                "50"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::And"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
                     "value": "NumberVariable"
                   },
                   "parameters": [
@@ -9831,7 +10123,7 @@
                 "totalCoin",
                 "Text",
                 "=",
-                "\"Z Coinz: \" + ToString(fuelConsump)"
+                "\"Z Coinz: \" + ToString(Z_CoinzVar)"
               ]
             }
           ]
@@ -9858,6 +10150,11 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
