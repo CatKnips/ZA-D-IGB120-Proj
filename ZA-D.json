@@ -2926,7 +2926,7 @@
       {
         "file": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle106.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle106.png\",\"extension\":\".png\"}",
         "name": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle106.png",
         "smoothed": true,
         "userAdded": false
@@ -2934,7 +2934,7 @@
       {
         "file": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle107.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle107.png\",\"extension\":\".png\"}",
         "name": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle107.png",
         "smoothed": true,
         "userAdded": false
@@ -2942,7 +2942,7 @@
       {
         "file": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle108.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle108.png\",\"extension\":\".png\"}",
         "name": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle108.png",
         "smoothed": true,
         "userAdded": false
@@ -2950,7 +2950,7 @@
       {
         "file": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle109.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle109.png\",\"extension\":\".png\"}",
         "name": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle109.png",
         "smoothed": true,
         "userAdded": false
@@ -2958,7 +2958,7 @@
       {
         "file": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle110.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle110.png\",\"extension\":\".png\"}",
         "name": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle110.png",
         "smoothed": true,
         "userAdded": false
@@ -2986,6 +2986,240 @@
         "kind": "image",
         "metadata": "",
         "name": "ZA-D Assets/Sprites/Night.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Audio/Dash Zombie.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ZA-D Assets\\Audio\\Dash Zombie.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Audio/Game Over music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ZA-D Assets\\Audio\\Game Over music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Audio/Game Over .mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ZA-D Assets\\Audio\\Game Over .mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Audio/Game music.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ZA-D Assets\\Audio\\Game music.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Audio/Game Over.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "ZA-D Assets\\Audio\\Game Over.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-idle_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-idle_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-idle_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-idle_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-idle_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-idle_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-idle_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-idle_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-idle_9.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-attack_0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-attack_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-attack_02.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_02.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-attack_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-attack_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-attack_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-attack_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-attack_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-attack_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_7.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-attack_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-move_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-move_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-move_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-move_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-move_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-move_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Zombies/skeleton-move_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets\\Sprites\\Zombies\\skeleton-move_4.png",
         "smoothed": true,
         "userAdded": false
       }
@@ -4744,7 +4978,7 @@
           ],
           "animations": [
             {
-              "name": "Movement",
+              "name": "",
               "useMultipleDirections": false,
               "directions": [
                 {
@@ -4753,7 +4987,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/skeleton-attack_0.png",
+                      "image": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_0.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4789,7 +5023,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/skeleton-attack_1.png",
+                      "image": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4825,7 +5059,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/skeleton-attack_2.png",
+                      "image": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_02.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4861,7 +5095,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/skeleton-attack_3.png",
+                      "image": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4897,7 +5131,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/skeleton-attack_4.png",
+                      "image": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_3.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4933,7 +5167,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/skeleton-attack_5.png",
+                      "image": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_4.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -4969,7 +5203,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/skeleton-attack_6.png",
+                      "image": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_5.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5005,7 +5239,7 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/skeleton-attack_7.png",
+                      "image": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_6.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5041,7 +5275,43 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/skeleton-attack_8.png",
+                      "image": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 58,
+                            "y": 72
+                          },
+                          {
+                            "x": 249,
+                            "y": 72
+                          },
+                          {
+                            "x": 249,
+                            "y": 242
+                          },
+                          {
+                            "x": 58,
+                            "y": 242
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets\\Sprites\\Zombies\\skeleton-attack_8.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5334,12 +5604,157 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
+                  "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
                       "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle106.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle106.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle106.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle107.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle107.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5447,7 +5862,295 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle108.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle108.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
                       "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle109.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle109.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle109.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle110.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle110.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle110.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 74,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 39
+                          },
+                          {
+                            "x": 623,
+                            "y": 753
+                          },
+                          {
+                            "x": 74,
+                            "y": 753
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_Zombies_Idle110.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5544,85 +6247,13 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "metadata": "{\"pskl\":{}}",
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
                       "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle01.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 2
-                          },
-                          {
-                            "x": 125,
-                            "y": 2
-                          },
-                          {
-                            "x": 125,
-                            "y": 170
-                          },
-                          {
-                            "x": 17,
-                            "y": 170
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle01.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 17,
-                            "y": 2
-                          },
-                          {
-                            "x": 125,
-                            "y": 2
-                          },
-                          {
-                            "x": 125,
-                            "y": 170
-                          },
-                          {
-                            "x": 17,
-                            "y": 170
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle03.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5730,6 +6361,78 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 170
+                          },
+                          {
+                            "x": 17,
+                            "y": 170
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle05.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 170
+                          },
+                          {
+                            "x": 17,
+                            "y": 170
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
                       "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle06.png",
                       "points": [],
                       "originPoint": {
@@ -5766,7 +6469,151 @@
                     },
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle07.png",
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle06.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 170
+                          },
+                          {
+                            "x": 17,
+                            "y": 170
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 170
+                          },
+                          {
+                            "x": 17,
+                            "y": 170
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 170
+                          },
+                          {
+                            "x": 17,
+                            "y": 170
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle03.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 17,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 2
+                          },
+                          {
+                            "x": 125,
+                            "y": 170
+                          },
+                          {
+                            "x": 17,
+                            "y": 170
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Zombies/ZA-D Assets_Sprites_KIdle06.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -6781,66 +7628,6 @@
             "characterSize": 40,
             "color": "255;255;255"
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Blade",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets\\Sprites\\NewSprite.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 0,
-                            "y": 25
-                          },
-                          {
-                            "x": 64,
-                            "y": 25
-                          },
-                          {
-                            "x": 64,
-                            "y": 43
-                          },
-                          {
-                            "x": 0,
-                            "y": 43
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6905,9 +7692,6 @@
           },
           {
             "objectName": "Days"
-          },
-          {
-            "objectName": "Blade"
           }
         ]
       },
@@ -6917,7 +7701,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Scene Settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -6927,7 +7710,6 @@
               "colorG": 144,
               "colorR": 74,
               "creationTime": 0,
-              "folded": true,
               "name": "Timers",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7043,15 +7825,6 @@
                         "",
                         "\"ChonkZomScale\""
                       ]
-                    },
-                    {
-                      "type": {
-                        "value": "ResetTimer"
-                      },
-                      "parameters": [
-                        "",
-                        "\"GameTimer\""
-                      ]
                     }
                   ]
                 }
@@ -7073,6 +7846,18 @@
               "actions": [
                 {
                   "type": {
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "ZA-D Assets\\Audio\\Game music.mp3",
+                    "yes",
+                    "12",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
@@ -7089,18 +7874,6 @@
                     "FuelVar",
                     "=",
                     "100"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "ZA-D Assets/Audio/Game music.mp3",
-                    "yes",
-                    "12",
-                    "1"
                   ]
                 },
                 {
@@ -7197,15 +7970,6 @@
                 },
                 {
                   "type": {
-                    "value": "ResetTimer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"GameoverTimer\""
-                  ]
-                },
-                {
-                  "type": {
                     "value": "PlaySound"
                   },
                   "parameters": [
@@ -7222,7 +7986,7 @@
                   },
                   "parameters": [
                     "",
-                    "ZA-D Assets/Audio/Game Over .mp3",
+                    "ZA-D Assets\\Audio\\Game Over.mp3",
                     "",
                     "20",
                     "0.8"
@@ -7235,7 +7999,6 @@
               "colorG": 53,
               "colorR": 6,
               "creationTime": 0,
-              "folded": true,
               "name": "Day/Night Cycle",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7542,6 +8305,7 @@
           "colorG": 156,
           "colorR": 52,
           "creationTime": 0,
+          "folded": true,
           "name": "Player Settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7764,7 +8528,7 @@
                   },
                   "parameters": [
                     "",
-                    "Blade",
+                    "FuelCan",
                     "0",
                     "0",
                     ""
@@ -7776,7 +8540,7 @@
                   },
                   "parameters": [
                     "",
-                    "Blade",
+                    "FuelCan",
                     "Player"
                   ]
                 }
@@ -7803,7 +8567,7 @@
                   },
                   "parameters": [
                     "",
-                    "Blade",
+                    "FuelCan",
                     "Player",
                     ""
                   ]
@@ -7813,7 +8577,7 @@
                     "value": "MettreAutour"
                   },
                   "parameters": [
-                    "Blade",
+                    "FuelCan",
                     "Player",
                     "0",
                     "30"
@@ -7824,7 +8588,7 @@
                     "value": "Rotate"
                   },
                   "parameters": [
-                    "Blade",
+                    "FuelCan",
                     "180",
                     ""
                   ]
@@ -7834,7 +8598,7 @@
                     "value": "ResizableCapability::ResizableBehavior::SetSize"
                   },
                   "parameters": [
-                    "Blade",
+                    "FuelCan",
                     "Resizable",
                     "200",
                     "200"
@@ -8532,6 +9296,7 @@
               "colorG": 156,
               "colorR": 97,
               "creationTime": 0,
+              "folded": true,
               "name": "Regular Zombo Settings",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -8631,7 +9396,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Blade",
+                        "FuelCan",
                         "RegZom",
                         "",
                         "",
@@ -8999,7 +9764,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Blade",
+                        "FuelCan",
                         "SwarmZom",
                         "",
                         "",
@@ -9706,7 +10471,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Blade",
+                        "FuelCan",
                         "SpeedZom",
                         "",
                         "",
@@ -9870,6 +10635,18 @@
                     }
                   ],
                   "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "ZA-D Assets\\Audio\\Dash Zombie.mp3",
+                        "",
+                        "10",
+                        "1"
+                      ]
+                    },
                     {
                       "type": {
                         "value": "Create"
@@ -10269,7 +11046,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Blade",
+                        "FuelCan",
                         "ChonkZom",
                         "",
                         "",
@@ -10299,7 +11076,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "Blade",
+                        "FuelCan",
                         "ChonkZom",
                         "",
                         "",
@@ -11994,7 +12771,7 @@
           "name": "BladeCost",
           "persistentUuid": "db51cd25-2b85-44f5-bb1a-a443c1b2a799",
           "width": 0,
-          "x": 500,
+          "x": 519,
           "y": 393,
           "zOrder": 14,
           "numberProperties": [],
@@ -12841,7 +13618,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "100",
+          "string": "?",
           "font": "ZA-D Assets/Fonts/pixolde.ttf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -12864,7 +13641,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "100",
+            "text": "?",
             "font": "ZA-D Assets/Fonts/pixolde.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -17461,6 +18238,8 @@
           "colorG": 30,
           "colorR": 116,
           "creationTime": 0,
+          "disabled": true,
+          "folded": true,
           "name": "Blade",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -17719,16 +18498,6 @@
                     "",
                     "\"BufferTimer\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "BladeD",
-                    "+",
-                    "0.5"
-                  ]
                 }
               ]
             },
@@ -17862,16 +18631,6 @@
                   "parameters": [
                     "",
                     "\"BufferTimer\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "BladeD",
-                    "+",
-                    "0.5"
                   ]
                 }
               ]
@@ -18007,16 +18766,6 @@
                     "",
                     "\"BufferTimer\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "BladeD",
-                    "+",
-                    "0.5"
-                  ]
                 }
               ]
             },
@@ -18081,16 +18830,6 @@
                     "",
                     "\"default\"",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "BladeD",
-                    "+",
-                    "0.5"
                   ]
                 }
               ]
@@ -19295,11 +20034,6 @@
             }
           ],
           "parameters": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
