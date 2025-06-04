@@ -8558,7 +8558,6 @@
           "colorG": 194,
           "colorR": 109,
           "creationTime": 0,
-          "folded": true,
           "name": "Zombies Settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -10499,7 +10498,7 @@
                         "ChonkZom",
                         "Scale",
                         "=",
-                        ".5"
+                        ".1"
                       ]
                     },
                     {
@@ -10642,7 +10641,7 @@
                         "ChonkZom",
                         "Scale",
                         "=",
-                        ".5"
+                        ".1"
                       ]
                     },
                     {
@@ -10774,7 +10773,7 @@
                         "ChonkZom",
                         "Scale",
                         "=",
-                        ".5"
+                        ".1"
                       ]
                     },
                     {
@@ -13179,6 +13178,7 @@
           "colorG": 54,
           "colorR": 216,
           "creationTime": 0,
+          "folded": true,
           "name": "Upgrade Checker",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
