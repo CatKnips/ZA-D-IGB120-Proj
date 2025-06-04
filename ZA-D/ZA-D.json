@@ -2988,6 +2988,14 @@
         "name": "ZA-D Assets/Sprites/Night.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Sprites/Blade.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets/Sprites/Blade.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -3035,13 +3043,13 @@
     },
     {
       "name": "BladesVar",
-      "type": "number",
-      "value": 1
+      "type": "boolean",
+      "value": false
     },
     {
-      "name": "BladeD",
+      "name": "BladeDamageVar",
       "type": "number",
-      "value": 0.5
+      "value": 0
     },
     {
       "name": "HealthVar",
@@ -3069,7 +3077,7 @@
       "value": 0
     },
     {
-      "name": "BladeUpgrades",
+      "name": "BladeDamageUpgrades",
       "type": "number",
       "value": 0
     },
@@ -4370,7 +4378,7 @@
           "layer": "",
           "name": "ZCoins",
           "persistentUuid": "227c673c-458a-4fe7-8801-be3f562c30be",
-          "width": 264,
+          "width": 567,
           "x": 14,
           "y": 20,
           "zOrder": 4,
@@ -6781,6 +6789,82 @@
             "characterSize": 40,
             "color": "255;255;255"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Blade",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "ZA-D Assets/Sprites/Blade.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 630,
+                        "y": 653
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 627,
+                        "y": 652
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 28.5,
+                            "y": 143
+                          },
+                          {
+                            "x": 103,
+                            "y": 88.5
+                          },
+                          {
+                            "x": 205,
+                            "y": 110.5
+                          },
+                          {
+                            "x": 496,
+                            "y": 356.5
+                          },
+                          {
+                            "x": 1264.5,
+                            "y": 1172
+                          },
+                          {
+                            "x": 1187.5,
+                            "y": 1245.5
+                          },
+                          {
+                            "x": 1078.5,
+                            "y": 1237.5
+                          },
+                          {
+                            "x": 626,
+                            "y": 790.5
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -6845,6 +6929,9 @@
           },
           {
             "objectName": "Days"
+          },
+          {
+            "objectName": "Blade"
           }
         ]
       },
@@ -7680,19 +7767,19 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "BuiltinCommonInstructions::Once"
-                  },
-                  "parameters": []
-                },
-                {
-                  "type": {
-                    "value": "NumberVariable"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
                     "BladesVar",
-                    "=",
+                    "True",
                     "2"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
                 }
               ],
               "actions": [
@@ -7702,10 +7789,20 @@
                   },
                   "parameters": [
                     "",
-                    "FuelCan",
+                    "Blade",
                     "0",
                     "0",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Blade",
+                    "=",
+                    "2"
                   ]
                 },
                 {
@@ -7714,7 +7811,7 @@
                   },
                   "parameters": [
                     "",
-                    "FuelCan",
+                    "Blade",
                     "Player"
                   ]
                 }
@@ -7725,11 +7822,11 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "NumberVariable"
+                    "value": "BooleanVariable"
                   },
                   "parameters": [
                     "BladesVar",
-                    "=",
+                    "True",
                     "2"
                   ]
                 }
@@ -7741,7 +7838,7 @@
                   },
                   "parameters": [
                     "",
-                    "FuelCan",
+                    "Blade",
                     "Player",
                     ""
                   ]
@@ -7751,7 +7848,7 @@
                     "value": "MettreAutour"
                   },
                   "parameters": [
-                    "FuelCan",
+                    "Blade",
                     "Player",
                     "0",
                     "30"
@@ -7762,7 +7859,7 @@
                     "value": "Rotate"
                   },
                   "parameters": [
-                    "FuelCan",
+                    "Blade",
                     "180",
                     ""
                   ]
@@ -7772,7 +7869,7 @@
                     "value": "ResizableCapability::ResizableBehavior::SetSize"
                   },
                   "parameters": [
-                    "FuelCan",
+                    "Blade",
                     "Resizable",
                     "200",
                     "200"
@@ -8571,7 +8668,7 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "FuelCan",
+                        "Blade",
                         "RegZom",
                         "",
                         "",
@@ -8594,7 +8691,7 @@
                         "RegZom",
                         "RegZomHealthVar",
                         "-",
-                        "BladeD"
+                        "BladeDamageVar"
                       ]
                     }
                   ]
@@ -8940,12 +9037,18 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "FuelCan",
+                        "Blade",
                         "SwarmZom",
                         "",
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -8957,7 +9060,7 @@
                         "SwarmZom",
                         "SwarmZomHealthVar",
                         "-",
-                        "BladeD"
+                        "BladeDamageVar"
                       ]
                     }
                   ]
@@ -9648,12 +9751,18 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "FuelCan",
+                        "Blade",
                         "SpeedZom",
                         "",
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -9665,7 +9774,7 @@
                         "SpeedZom",
                         "SpeedZomHealthVar",
                         "-",
-                        "BladeD"
+                        "BladeDamageVar"
                       ]
                     }
                   ]
@@ -10212,12 +10321,18 @@
                         "value": "CollisionNP"
                       },
                       "parameters": [
-                        "FuelCan",
+                        "Blade",
                         "ChonkZom",
                         "",
                         "",
                         ""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
                     }
                   ],
                   "actions": [
@@ -10229,37 +10344,7 @@
                         "ChonkZom",
                         "ChonkZomHealthVar",
                         "-",
-                        "BladeD"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "CollisionNP"
-                      },
-                      "parameters": [
-                        "FuelCan",
-                        "ChonkZom",
-                        "",
-                        "",
-                        ""
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "SetNumberObjectVariable"
-                      },
-                      "parameters": [
-                        "ChonkZom",
-                        "ChonkZomHealthVar",
-                        "-",
-                        "BladeD"
+                        "BladeDamageVar"
                       ]
                     }
                   ]
@@ -11937,7 +12022,7 @@
           "name": "BladeCost",
           "persistentUuid": "db51cd25-2b85-44f5-bb1a-a443c1b2a799",
           "width": 0,
-          "x": 519,
+          "x": 500,
           "y": 393,
           "zOrder": 14,
           "numberProperties": [],
@@ -12784,7 +12869,7 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "?",
+          "string": "200",
           "font": "ZA-D Assets/Fonts/pixolde.ttf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -12807,7 +12892,7 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "?",
+            "text": "200",
             "font": "ZA-D Assets/Fonts/pixolde.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
@@ -13094,7 +13179,6 @@
           "colorG": 54,
           "colorR": 216,
           "creationTime": 0,
-          "folded": true,
           "name": "Upgrade Checker",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -14016,7 +14100,6 @@
               "colorG": 71,
               "colorR": 223,
               "creationTime": 0,
-              "disabled": true,
               "folded": true,
               "name": "Blade",
               "source": "",
@@ -14038,7 +14121,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "BladeUpgrades",
+                        "BladeDamageUpgrades",
                         "=",
                         "1"
                       ]
@@ -14066,6 +14149,333 @@
                         "Scale",
                         "=",
                         "0.173"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Blade",
+                        "Text",
+                        "=",
+                        "\"Blade Damage:\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "BladeCost",
+                        "Text",
+                        "=",
+                        "\"125\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "BladeDamageUpgrades",
+                        "=",
+                        "2"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SlotFill",
+                        "571",
+                        "368",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SlotFill",
+                        "628",
+                        "368",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "SlotFill",
+                        "Scale",
+                        "=",
+                        "0.173"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "BladeCost",
+                        "Text",
+                        "=",
+                        "\"125\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Blade",
+                        "Text",
+                        "=",
+                        "\"Blade Damage:\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "BladeDamageUpgrades",
+                        "=",
+                        "3"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SlotFill",
+                        "571",
+                        "368",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SlotFill",
+                        "628",
+                        "368",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SlotFill",
+                        "685",
+                        "368",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "SlotFill",
+                        "Scale",
+                        "=",
+                        "0.173"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "BladeCost",
+                        "Text",
+                        "=",
+                        "\"125\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Blade",
+                        "Text",
+                        "=",
+                        "\"Blade Damage:\""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DepartScene"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "BladeDamageUpgrades",
+                        "=",
+                        "4"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SlotFill",
+                        "571",
+                        "368",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SlotFill",
+                        "628",
+                        "368",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SlotFill",
+                        "685",
+                        "368",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "SlotFill",
+                        "743",
+                        "368",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "BlockFill",
+                        "467",
+                        "369",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "BlockFill",
+                        "Scale",
+                        "=",
+                        "0.170"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ScalableCapability::ScalableBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "SlotFill",
+                        "Scale",
+                        "=",
+                        "0.173"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "BladeCost",
+                        "Text",
+                        "=",
+                        "\"125\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "Blade",
+                        "Text",
+                        "=",
+                        "\"Blade Damage:\""
                       ]
                     }
                   ]
@@ -15152,7 +15562,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "BladeUpgrades",
+                    "BladeDamageUpgrades",
                     "<",
                     "4"
                   ]
@@ -17404,7 +17814,6 @@
           "colorG": 30,
           "colorR": 116,
           "creationTime": 0,
-          "disabled": true,
           "folded": true,
           "name": "Blade",
           "source": "",
@@ -17446,7 +17855,7 @@
                       "parameters": [
                         "Z_CoinzVar",
                         ">=",
-                        "100"
+                        "200"
                       ]
                     },
                     {
@@ -17454,7 +17863,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "BladeUpgrades",
+                        "BladeDamageUpgrades",
                         "=",
                         "0"
                       ]
@@ -17471,12 +17880,22 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetNumberVariable"
+                    "value": "SetBooleanVariable"
                   },
                   "parameters": [
                     "BladesVar",
-                    "=",
+                    "True",
                     "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BladeDamageVar",
+                    "+",
+                    "0.5"
                   ]
                 },
                 {
@@ -17486,7 +17905,7 @@
                   "parameters": [
                     "Z_CoinzVar",
                     "-",
-                    "100"
+                    "200"
                   ]
                 },
                 {
@@ -17517,7 +17936,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "BladeUpgrades",
+                    "BladeDamageUpgrades",
                     "+",
                     "1"
                   ]
@@ -17529,6 +17948,28 @@
                   "parameters": [
                     "",
                     "\"BufferTimer\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "BladeCost",
+                    "Text",
+                    "=",
+                    "\"125\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Blade",
+                    "Text",
+                    "=",
+                    "\"Blade Damage:\""
                   ]
                 }
               ]
@@ -17569,7 +18010,7 @@
                       "parameters": [
                         "Z_CoinzVar",
                         ">=",
-                        "100"
+                        "125"
                       ]
                     },
                     {
@@ -17577,7 +18018,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "BladeUpgrades",
+                        "BladeDamageUpgrades",
                         "=",
                         "1"
                       ]
@@ -17608,9 +18049,9 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "BladesVar",
-                    "=",
-                    "2"
+                    "BladeDamageVar",
+                    "+",
+                    "0.5"
                   ]
                 },
                 {
@@ -17620,7 +18061,7 @@
                   "parameters": [
                     "Z_CoinzVar",
                     "-",
-                    "100"
+                    "125"
                   ]
                 },
                 {
@@ -17651,7 +18092,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "BladeUpgrades",
+                    "BladeDamageUpgrades",
                     "+",
                     "1"
                   ]
@@ -17703,7 +18144,7 @@
                       "parameters": [
                         "Z_CoinzVar",
                         ">=",
-                        "100"
+                        "125"
                       ]
                     },
                     {
@@ -17711,7 +18152,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "BladeUpgrades",
+                        "BladeDamageUpgrades",
                         "=",
                         "2"
                       ]
@@ -17742,9 +18183,9 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "BladesVar",
-                    "=",
-                    "2"
+                    "BladeDamageVar",
+                    "+",
+                    "0.5"
                   ]
                 },
                 {
@@ -17754,7 +18195,7 @@
                   "parameters": [
                     "Z_CoinzVar",
                     "-",
-                    "100"
+                    "125"
                   ]
                 },
                 {
@@ -17785,7 +18226,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "BladeUpgrades",
+                    "BladeDamageUpgrades",
                     "+",
                     "1"
                   ]
@@ -17837,7 +18278,7 @@
                       "parameters": [
                         "Z_CoinzVar",
                         ">=",
-                        "100"
+                        "125"
                       ]
                     },
                     {
@@ -17845,7 +18286,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "BladeUpgrades",
+                        "BladeDamageUpgrades",
                         "=",
                         "3"
                       ]
@@ -17876,9 +18317,9 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "BladesVar",
-                    "=",
-                    "2"
+                    "BladeDamageVar",
+                    "+",
+                    "0.5"
                   ]
                 },
                 {
@@ -17888,7 +18329,7 @@
                   "parameters": [
                     "Z_CoinzVar",
                     "-",
-                    "100"
+                    "125"
                   ]
                 },
                 {
@@ -17919,7 +18360,7 @@
                     "value": "SetNumberVariable"
                   },
                   "parameters": [
-                    "BladeUpgrades",
+                    "BladeDamageUpgrades",
                     "+",
                     "1"
                   ]
@@ -17943,7 +18384,7 @@
                     "value": "NumberVariable"
                   },
                   "parameters": [
-                    "BladeUpgrades",
+                    "BladeDamageUpgrades",
                     "=",
                     "4"
                   ]
@@ -17956,6 +18397,16 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "BladeDamageVar",
+                    "+",
+                    "0.5"
+                  ]
+                },
                 {
                   "type": {
                     "value": "Create"
@@ -18010,7 +18461,7 @@
                   "parameters": [
                     "Z_CoinzVar",
                     "<",
-                    "100"
+                    "200"
                   ]
                 },
                 {
