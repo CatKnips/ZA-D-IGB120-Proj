@@ -2984,7 +2984,7 @@
       {
         "file": "ZA-D Assets/Sprites/Night.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"ZA-D Assets/Sprites/Night.png\",\"extension\":\".png\",\"pskl\":{}}",
         "name": "ZA-D Assets/Sprites/Night.png",
         "smoothed": true,
         "userAdded": false
@@ -2994,6 +2994,22 @@
         "kind": "image",
         "metadata": "",
         "name": "ZA-D Assets/Sprites/Blade.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Backgrounds/post_apocalyptic_desert_landscape_by_kernazhytskaya_dcjqiuc-fullview.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets/Backgrounds/post_apocalyptic_desert_landscape_by_kernazhytskaya_dcjqiuc-fullview.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "ZA-D Assets/Backgrounds/5d2c609af3e05.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "ZA-D Assets/Backgrounds/5d2c609af3e05.jpg",
         "smoothed": true,
         "userAdded": false
       }
@@ -3188,14 +3204,14 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 761,
+          "height": 732,
           "keepRatio": true,
           "layer": "",
           "name": "Background",
           "persistentUuid": "46cb2c08-ce34-4ea2-91dd-09de4bbd3307",
-          "width": 1466,
-          "x": -107,
-          "y": -16,
+          "width": 1411,
+          "x": -64,
+          "y": -1,
           "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
@@ -3219,9 +3235,9 @@
           "textAlignment": "center",
           "characterSize": 70,
           "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
+            "b": 0,
+            "g": 0,
+            "r": 0
           },
           "content": {
             "bold": false,
@@ -3242,7 +3258,7 @@
             "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 70,
-            "color": "255;255;255"
+            "color": "0;0;0"
           }
         },
         {
@@ -3261,9 +3277,9 @@
           "textAlignment": "center",
           "characterSize": 80,
           "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
+            "b": 0,
+            "g": 0,
+            "r": 0
           },
           "content": {
             "bold": false,
@@ -3284,7 +3300,7 @@
             "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 80,
-            "color": "255;255;255"
+            "color": "0;0;0"
           }
         },
         {
@@ -3303,9 +3319,9 @@
           "textAlignment": "left",
           "characterSize": 70,
           "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
+            "b": 0,
+            "g": 0,
+            "r": 0
           },
           "content": {
             "bold": false,
@@ -3326,7 +3342,7 @@
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 70,
-            "color": "255;255;255"
+            "color": "0;0;0"
           }
         },
         {
@@ -3345,9 +3361,9 @@
           "textAlignment": "center",
           "characterSize": 70,
           "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
+            "b": 0,
+            "g": 0,
+            "r": 0
           },
           "content": {
             "bold": false,
@@ -3368,7 +3384,7 @@
             "textAlignment": "center",
             "verticalTextAlignment": "top",
             "characterSize": 70,
-            "color": "255;255;255"
+            "color": "0;0;0"
           }
         },
         {
@@ -3391,7 +3407,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "ZA-D Assets/Backgrounds/0ac530e34f43d8187ada834ff941b08ca4f732f6.jpg",
+                      "image": "ZA-D Assets/Backgrounds/5d2c609af3e05.jpg",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3411,16 +3427,16 @@
                             "y": 0
                           },
                           {
-                            "x": 3840,
+                            "x": 1920,
                             "y": 0
                           },
                           {
-                            "x": 3840,
-                            "y": 2160
+                            "x": 1920,
+                            "y": 1080
                           },
                           {
                             "x": 0,
-                            "y": 2160
+                            "y": 1080
                           }
                         ]
                       ]
@@ -3611,7 +3627,7 @@
               },
               "parameters": [
                 "Play",
-                "\"255;255;255\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -3620,7 +3636,7 @@
               },
               "parameters": [
                 "Settings",
-                "\"255;255;255\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -3629,7 +3645,7 @@
               },
               "parameters": [
                 "Upgrades",
-                "\"255;255;255\""
+                "\"0;0;0\""
               ]
             },
             {
@@ -3924,15 +3940,16 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 495,
           "keepRatio": true,
           "layer": "",
           "name": "Tutorial",
           "persistentUuid": "e97aedc8-461d-42a2-88c9-62ee92960841",
-          "width": 0,
-          "x": 27,
-          "y": 93,
+          "width": 1248,
+          "x": 13,
+          "y": 35,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3947,8 +3964,8 @@
           "name": "ContinueText",
           "persistentUuid": "216e8ebe-99fb-4656-97bd-f7a1d6b49e0c",
           "width": 0,
-          "x": 144,
-          "y": 530,
+          "x": 139,
+          "y": 591,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3967,10 +3984,10 @@
           "variables": [],
           "effects": [],
           "behaviors": [],
-          "string": "Zombo's have taken over the world!\n\nYou are stranded in the desert, alone and low on fuel. \n\nFight through waves of zombies & stock up on fuel to survive.\n\nUse WASD to move, Left Click to shoot.",
+          "string": "Zombo's have taken over the world!\n\nYou are stranded in the desert, alone and low on fuel. \n\nFight through waves of zombo's & stock up on fuel to survive.\n\nBut be careful, the longer you survive, the stronger they'll get. \n\nTry to reach day 10!\n\nUse WASD to move, Left Click to shoot.",
           "font": "",
           "textAlignment": "center",
-          "characterSize": 45,
+          "characterSize": 40,
           "color": {
             "b": 255,
             "g": 255,
@@ -3990,11 +4007,11 @@
             "shadowOpacity": 127,
             "smoothed": true,
             "underlined": false,
-            "text": "Zombo's have taken over the world!\n\nYou are stranded in the desert, alone and low on fuel. \n\nFight through waves of zombies & stock up on fuel to survive.\n\nUse WASD to move, Left Click to shoot.",
+            "text": "Zombo's have taken over the world!\n\nYou are stranded in the desert, alone and low on fuel. \n\nFight through waves of zombo's & stock up on fuel to survive.\n\nBut be careful, the longer you survive, the stronger they'll get. \n\nTry to reach day 10!\n\nUse WASD to move, Left Click to shoot.",
             "font": "",
             "textAlignment": "center",
             "verticalTextAlignment": "top",
-            "characterSize": 45,
+            "characterSize": 40,
             "color": "255;255;255"
           }
         },
@@ -4266,7 +4283,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.6244537826600003,
+        "zoomFactor": 0.6897782140104511,
         "windowMask": false
       },
       "objectsGroups": [
@@ -4413,8 +4430,8 @@
           "name": "Gun",
           "persistentUuid": "76b2f930-2609-4dc5-885d-9a01656509f8",
           "width": 119,
-          "x": 665,
-          "y": 443,
+          "x": 687,
+          "y": 484,
           "zOrder": 9,
           "numberProperties": [],
           "stringProperties": [],
@@ -4499,37 +4516,6 @@
           "effects": [],
           "behaviors": [
             {
-              "isFolded": true,
-              "name": "FireBullet",
-              "type": "FireBullet::FireBullet",
-              "FireCooldown": 0.1,
-              "HasJustFired": false,
-              "RotateBullet": true,
-              "FiringArc": 45,
-              "BulletQuantity": 1,
-              "AngleVariance": 0,
-              "BulletSpeedVariance": 0,
-              "AmmoQuantity": 0,
-              "ShotsPerReload": 0,
-              "ReloadDuration": 1,
-              "MaxAmmo": 0,
-              "ShotsBeforeNextReload": 0,
-              "TotalShotsFired": 0,
-              "TotalBulletsCreated": 0,
-              "StartingAmmo": 0,
-              "TotalReloadsCompleted": 0,
-              "UnlimitedAmmo": true,
-              "ReloadInProgress": false,
-              "HeatIncreasePerShot": 0,
-              "HeatLevel": 0,
-              "AutomaticReloading": true,
-              "OverheatDuration": 0,
-              "LinearCoolingRate": 0.1,
-              "ExponentialCoolingRate": 0.3,
-              "BulletLayer": "",
-              "RandomizedAngle": 0
-            },
-            {
               "name": "FlashEffect",
               "type": "Flash::FlashEffect",
               "Effect": "Effect",
@@ -4537,34 +4523,6 @@
               "IsFlashing": false,
               "FlashDuration": 0,
               "EffectName": ""
-            },
-            {
-              "name": "Health",
-              "type": "Health::Health",
-              "Health": 10,
-              "CurrentHealth": 0,
-              "MaxHealth": 10,
-              "DamageCooldown": 1.5,
-              "AllowOverHealing": false,
-              "IsHealthJustDamaged": false,
-              "DamageToBeApplied": 0,
-              "HitAtLeastOnce": false,
-              "ChanceToDodge": 0,
-              "IsJustDodged": false,
-              "HealToBeApplied": 0,
-              "HealthRegenRate": 0,
-              "HealthRegenDelay": 0,
-              "IsJustHealed": false,
-              "CurrentShieldPoints": 2.0247e-320,
-              "MaxShieldPoints": 0,
-              "ShieldDuration": 5,
-              "ShieldRegenRate": 0,
-              "BlockExcessDamage": false,
-              "ShieldRegenDelay": 0,
-              "IsShieldJustDamaged": false,
-              "ShieldDamageTaken": 2.0247e-320,
-              "FlatDamageReduction": 0,
-              "PercentDamageReduction": 0
             },
             {
               "isFolded": true,
@@ -4577,29 +4535,17 @@
               "Topdown": "TopDownMovement"
             },
             {
+              "acceleration": 130,
+              "angularMaxSpeed": 70,
               "isFolded": true,
-              "name": "ScreenWrap",
-              "type": "ScreenWrap::ScreenWrap",
-              "HorizontalWrapping": true,
-              "VerticalWrapping": true,
-              "BorderTop": 0,
-              "BorderLeft": 0,
-              "BorderRight": 0,
-              "BorderBottom": 0,
-              "TriggerOffset": 25
-            },
-            {
-              "isFolded": true,
+              "maxSpeed": 150,
               "name": "TopDownMovement",
               "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 200,
               "allowDiagonals": true,
               "angleOffset": 0,
-              "angularMaxSpeed": 100,
               "customIsometryAngle": 30,
               "deceleration": 800,
               "ignoreDefaultControls": false,
-              "maxSpeed": 150,
               "movementAngleOffset": 0,
               "rotateObject": true,
               "viewpoint": "TopDown"
@@ -4622,6 +4568,11 @@
                           "name": "Cannon",
                           "x": 411.5,
                           "y": 140.5
+                        },
+                        {
+                          "name": "Gun",
+                          "x": 192.5,
+                          "y": 138.5
                         }
                       ],
                       "originPoint": {
@@ -4632,8 +4583,8 @@
                       "centerPoint": {
                         "automatic": false,
                         "name": "centre",
-                        "x": 195,
-                        "y": 136.5
+                        "x": 299.5,
+                        "y": 141.5
                       },
                       "customCollisionMask": [
                         [
@@ -4740,6 +4691,11 @@
               "name": "RegZomHealthVar",
               "type": "number",
               "value": 0
+            },
+            {
+              "name": "RegZomAttacking",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -5326,6 +5282,11 @@
               "name": "ChonkZomHealthVar",
               "type": "number",
               "value": 5
+            },
+            {
+              "name": "ChonkZomAttacking",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -5903,6 +5864,11 @@
               "name": "SwarmZomHealthVar",
               "type": "number",
               "value": 1
+            },
+            {
+              "name": "SwarmZomAttacking",
+              "type": "boolean",
+              "value": false
             }
           ],
           "effects": [],
@@ -6941,7 +6907,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Scene Settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7259,7 +7224,6 @@
               "colorG": 53,
               "colorR": 6,
               "creationTime": 0,
-              "folded": true,
               "name": "Day/Night Cycle",
               "source": "",
               "type": "BuiltinCommonInstructions::Group",
@@ -7412,7 +7376,7 @@
                         "Day_Night",
                         "Opacity",
                         ">=",
-                        "75"
+                        "1"
                       ]
                     }
                   ],
@@ -7566,7 +7530,6 @@
           "colorG": 156,
           "colorR": 52,
           "creationTime": 0,
-          "folded": true,
           "name": "Player Settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -7583,7 +7546,7 @@
                     "Gun",
                     "MouseX()",
                     "MouseY()",
-                    "110",
+                    "300",
                     ""
                   ]
                 },
@@ -7594,9 +7557,9 @@
                   "parameters": [
                     "Gun",
                     "=",
-                    "Player.X(\"Center\")",
+                    "Player.X(\"Gun\")",
                     "=",
-                    "Player.Y(\"Center\")"
+                    "Player.Y(\"Gun\")"
                   ]
                 }
               ]
@@ -7646,6 +7609,59 @@
                     "FuelVar",
                     "-",
                     "FuelEffVar"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "FuelBar",
+                    "=",
+                    "ToNumber(FuelVar)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"FuelDecline\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "FuelVar",
+                    ">",
+                    "100"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "FuelVar",
+                    "=",
+                    "100"
                   ]
                 },
                 {
@@ -8072,36 +8088,66 @@
                   "conditions": [
                     {
                       "type": {
-                        "value": "NumberVariable"
+                        "value": "BuiltinCommonInstructions::And"
                       },
-                      "parameters": [
-                        "FuelVar",
-                        "<=",
-                        "0"
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "FuelVar",
+                            "<=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "Distance"
+                          },
+                          "parameters": [
+                            "RegZom",
+                            "Player",
+                            "1000",
+                            ""
+                          ]
+                        }
                       ]
                     }
                   ],
                   "actions": [
                     {
                       "type": {
-                        "value": "TopDownMovementBehavior::Acceleration"
+                        "value": "SetBooleanObjectVariable"
                       },
                       "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "=",
-                        "0"
+                        "RegZom",
+                        "RegZomAttacking",
+                        "True",
+                        ""
                       ]
                     },
                     {
                       "type": {
-                        "value": "TopDownMovementBehavior::MaxSpeed"
+                        "value": "SetBooleanObjectVariable"
                       },
                       "parameters": [
-                        "Player",
-                        "TopDownMovement",
-                        "=",
-                        "0"
+                        "SwarmZom",
+                        "SwarmZomAttacking",
+                        "True",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "ChonkZom",
+                        "ChonkZomAttacking",
+                        "True",
+                        ""
                       ]
                     }
                   ]
@@ -8558,6 +8604,7 @@
           "colorG": 194,
           "colorR": 109,
           "creationTime": 0,
+          "folded": true,
           "name": "Zombies Settings",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -8616,6 +8663,76 @@
                         "Text",
                         "=",
                         "\"Z-Coinz: \" + ToString(Z_CoinzVar)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "RegZom",
+                        "Player",
+                        "200",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "RegZom",
+                        "RegZomAttacking",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "RegZom",
+                        "RegZomAttacking",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "RegZom",
+                        "Player",
+                        "70",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "RegZom",
+                        "Player.X()",
+                        "Player.Y()",
+                        "100",
+                        ""
                       ]
                     }
                   ]
@@ -9024,6 +9141,76 @@
                         "SwarmZomHealthVar",
                         "-",
                         "BulletDamageVar"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "SwarmZom",
+                        "Player",
+                        "200",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "SwarmZom",
+                        "SwarmZomAttacking",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "SwarmZom",
+                        "SwarmZomAttacking",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "SwarmZom",
+                        "Player",
+                        "70",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "SwarmZom",
+                        "Player.X()",
+                        "Player.Y()",
+                        "100",
+                        ""
                       ]
                     }
                   ]
@@ -9955,13 +10142,25 @@
                     },
                     {
                       "type": {
-                        "value": "AddForceAL"
+                        "value": "AddForceVers"
                       },
                       "parameters": [
                         "SpeedZom",
-                        "SpeedZom.Angle()",
+                        "Player",
                         "180",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "SpeedZom",
+                        "Player.X()",
+                        "Player.Y()",
+                        "0",
+                        ""
                       ]
                     },
                     {
@@ -10087,13 +10286,25 @@
                     },
                     {
                       "type": {
-                        "value": "AddForceAL"
+                        "value": "AddForceVers"
                       },
                       "parameters": [
                         "SpeedZom",
-                        "SpeedZom.Angle()",
+                        "Player",
                         "180",
                         "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "SpeedZom",
+                        "Player.X()",
+                        "Player.Y()",
+                        "0",
+                        ""
                       ]
                     },
                     {
@@ -10208,6 +10419,76 @@
                         "Text",
                         "=",
                         "\"Z-Coinz: \" + ToString(Z_CoinzVar)"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Distance"
+                      },
+                      "parameters": [
+                        "ChonkZom",
+                        "Player",
+                        "200",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetBooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "SwarmZom",
+                        "SwarmZomAttacking",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BooleanObjectVariable"
+                      },
+                      "parameters": [
+                        "ChonkZom",
+                        "ChonkZomAttacking",
+                        "True",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "AddForceVers"
+                      },
+                      "parameters": [
+                        "ChonkZom",
+                        "Player",
+                        "40",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "RotateTowardPosition"
+                      },
+                      "parameters": [
+                        "ChonkZom",
+                        "Player.X()",
+                        "Player.Y()",
+                        "100",
+                        ""
                       ]
                     }
                   ]
@@ -11181,10 +11462,6 @@
           "type": "EffectCapability::EffectBehavior"
         },
         {
-          "name": "FireBullet",
-          "type": "FireBullet::FireBullet"
-        },
-        {
           "name": "FlashEffect",
           "type": "Flash::FlashEffect"
         },
@@ -11211,10 +11488,6 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "ScreenWrap",
-          "type": "ScreenWrap::ScreenWrap"
         },
         {
           "name": "Text",
@@ -11983,7 +12256,7 @@
           "name": "Upgrades",
           "persistentUuid": "6f1985ec-a9e3-40b2-b70e-008b364b4dd6",
           "width": 0,
-          "x": 466,
+          "x": 535,
           "y": 5,
           "zOrder": 3,
           "numberProperties": [],
@@ -12216,8 +12489,8 @@
           "name": "BladeCost",
           "persistentUuid": "db51cd25-2b85-44f5-bb1a-a443c1b2a799",
           "width": 0,
-          "x": 500,
-          "y": 393,
+          "x": 503,
+          "y": 394,
           "zOrder": 14,
           "numberProperties": [],
           "stringProperties": [],
@@ -12404,7 +12677,7 @@
           "effects": [],
           "behaviors": [],
           "string": "Upgrades",
-          "font": "ZA-D Assets/Fonts/ScorchedEarthDEMO-KCFonts.otf",
+          "font": "ZA-D Assets/Fonts/SpookyZombie-nROvO.ttf",
           "textAlignment": "left",
           "characterSize": 60,
           "color": {
@@ -12427,7 +12700,7 @@
             "smoothed": true,
             "underlined": false,
             "text": "Upgrades",
-            "font": "ZA-D Assets/Fonts/ScorchedEarthDEMO-KCFonts.otf",
+            "font": "ZA-D Assets/Fonts/SpookyZombie-nROvO.ttf",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
             "characterSize": 60,
@@ -15645,7 +15918,7 @@
                   "parameters": [
                     "BulletSizeUpgrades",
                     "<",
-                    "4"
+                    "3"
                   ]
                 },
                 {
@@ -16007,7 +16280,6 @@
               ]
             },
             {
-              "disabled": true,
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
                 {
@@ -16024,7 +16296,7 @@
                   },
                   "parameters": [
                     "Z_CoinzVar",
-                    "=",
+                    "+",
                     "10000"
                   ]
                 }
@@ -16720,7 +16992,6 @@
           "colorG": 39,
           "colorR": 148,
           "creationTime": 0,
-          "folded": true,
           "name": "Bullet Size",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
